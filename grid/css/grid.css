@@ -1,0 +1,44 @@
+body{
+    background: #f5f7f8;
+}
+#grid{
+    padding: 15px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#grid article{
+    color: white;
+    /* background: orange; */
+    padding: 20px;
+}
+
+#item-1{
+    background: #b03532 ;
+
+}
+#item-2{
+    background: #338a53; 
+}
+#item-3{
+    background-color: rgb(112,141,54);
+}
+#item-4{
+    background-color: rgb(0, 170, 113) ;
+}
+#item-5{
+    background-color: greenyellow ;
+}
+#item-6{
+    background-color: red;
+}
+#item-7{
+    background: blueviolet ;
+}
+#item-8{
+    background: blue;
+}
+#item-9{
+    background: yellow
+}
