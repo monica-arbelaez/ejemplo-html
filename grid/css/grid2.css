@@ -3,7 +3,7 @@ body{
 
 }
 #pagina{
-    /* height: 700px; */
+    height: 700px;
     display: grid;
     grid-template-areas: "cabecera cabecera "
                          "menu cuerpo"
@@ -17,6 +17,7 @@ body{
 header{
     background-color: firebrick;
     grid-area: cabecera;
+   
 
 }
 nav{
